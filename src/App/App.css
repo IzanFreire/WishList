@@ -62,3 +62,18 @@ html {
 .wish-list__item--warn {
   color: orange;
 }
+
+.wish-clear {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  font-size: 1.2rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.wish-clear:hover {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
