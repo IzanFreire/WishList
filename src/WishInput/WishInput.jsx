@@ -9,7 +9,7 @@ export default function WishInput({ onNewWish }) {
       const newWishObject = {
         id: Date.now(),
         text: newWish,
-        Completed: false,
+        completed: false,
       };
       // insertando un nuevo objeto wish en los arrays wish que tiene el padre que es App.jsx
       onNewWish(newWishObject);
